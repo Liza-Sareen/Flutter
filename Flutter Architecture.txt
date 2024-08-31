@@ -1,0 +1,30 @@
+Flutter Architecture:
+1. Flutter is all about widgets. 
+2.When we make flutter UI, we need to make widget tree. 
+3.Widget tree means nesting.
+Step-1: Code to form widget and widget tree.
+Step-2: Code the differences you want to have in different platforms or can be same too. For this we use conditional programming. For websites we use html and CSS for UI and JavaScript for backend. but for flutter you use dart for UI and UX(logic) both.
+4. Like we have elements in html, or div's on website, similarly our app is made up of multiple widgets. One widget can have multiple widgets, that is nesting.
+Q: Flutter is all about widgets?
+Q: What are widget?
+Q: Why I need to create widget tree?
+---------------------
+How you create a widget flow:
+1.First you have MyApp widget. The app is getting designed under this widget.
+2.This widget further have multiple screen widgets. Screen is the page/activity.
+3. App contains multiple screens or pages. Every page is a widget too.
+MyApp-->MaterialApp-->Homepage-->Scaffold
+MyApp: we are building the app
+MaterialApp: use Cupertino for apple UI, with help of conditional programming
+HomePage: contains multiple pages or screens
+Scaffold: this provides the layout for every page and all the components of UI are present in scaffold. Same can be found in Cupertino.
+Scaffold has:
+1. AppBar: This is the top of the page like navbar. It further has widgets to design it.
+2. Body: This is the content of the page.
+3. Floating action button: this is placed at the place where whatsap shows 'Add contacts'. Navigation drawer: this is the side navigation bar of the app. Similar to this you can have bottom navigation bar.
+Widgets: Some can have multiple contained widgets or some can have only one child.
+Development:
+1. Single code base: one code only.
+2. UI will be built using code, not drag and drop or visual editors.
+3. Logic also in same code.
+4. Dart also is very simple.

@@ -1,0 +1,74 @@
+Files and folders in flutter:
+1.This will tell the use of each file and folder in flutter app.
+2.Which files and folders are important and recently used.
+.idea:
+1. This stores all the settings of the IDE wrt the project. Like VSCode's settings specific to my app will be stored here.
+Id in idea means IDE.
+2. This folder will be managed by IDE
+3. This is project specific
+4. This should not be changed by you.
+5. This has a logo like settings(fan subscript)
+.android:
+1. This folder contains android OS specific code.
+2. This folder has settings or appearance of the app, you want only for android version of app.
+3. This distinguishes app from other platforms.
+4. This has platform specific code. Similarly you have iOS , Windows and Mac folders.
+5. Symbol: three dots of different color in subscript.
+.build:
+1. You can launch your app, it can be either launched on phone or you can put it to play store.
+2. The final output of your project i.e. .exe file, .APK file are contained in the build folder. 
+3. All APK and app bundles are found here.
+4. This will be orange color folder
+5. This will be generated on runtime, this can be deleted also, as ye runtime pe firse Banega.
+.iOS:
+1. Initially flutter was concerned about iOS, Android and windows only.
+2. All iOS, specific settings and code changes are done here.
+3. Similar to .android for android devices.
+4. When you want to run the project on real iPhone, you will need AXE file.
+.lib:
+1. This is the library folder.
+2. This is the most important and used folder.
+3. This has all the dart files of the project.
+4. Here you will write all flutter app related code.
+5. This will have main.dart file, created on app creation.
+.test:
+1. testing: Manual and automation
+2. manual: you can urself check the app
+3. automation testing: testing against various test cases.
+4. All testing related code, test cases are written in test folder.
+.gitignore:
+1. VCS: version control system
+2. We keep the backup of our app on the git.
+3. There are some auto-generated files which are not needed, they are created while runtime. They will take up some space created in pc of the member. They will also be uploaded while pushing the code.
+4. We will place here those files, which we don't want to commit on GitHub.
+5. Used when working with a team and professional project.
+.metadata:
+1. This stores data related to data
+2. This stores all data related to flutter project.
+3. This should not be touched.
+4. This is not a folder but a file.
+.packages:
+1. pre installed packages: already installed with flutter.
+2. user defined packages: packages installed by the user.
+3. Flutter code is made up of multiple folders and packages.
+4. I will import code from packages, reduces redundancy.
+5. inbuilt packages are more used so they are pre installed.
+6. This folder has the path to the packages'source code.
+7. This will not be changed by you.
+8. Adding user defined packages will be done in another file/folder.
+.pubspeck.yaml:
+1. Declaration of all the things related to app
+2. After changes in this file, you need to call pub get, changes will apply by this.
+3. This is the second important file.
+.pubspeck.lock:
+1. This is dependant on yaml file
+2. This has all the changes made in yaml file.
+3. This will not be committed on the git,when this will be run on someone's computer, it will again create another lock file.
+4. This is a helper file created next to pubspeck.yaml.
+5. It contains the versions of the used libraries and ensures that they stay consistent.
+6. Don't need to manage this.
+.README.md:
+1. This tells about the git repo and project, or contains the description of git repo.
+2. This needs to be changed when we commit the code, if the project is public, so as users can understand the code.
+3. This is used to describe your project.
+

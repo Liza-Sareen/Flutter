@@ -1,0 +1,20 @@
+Flutter Notes:
+Why Flutter ?
+1. a tool that helps with native cross platform app development.
+2. Overall users are connected to desktop and mobiles, so we can make desktop and mobile apps. In the world, mostly people use Android. Flutter's one single code can run on any of these platforms like iOS, android, desktop and mobile apps. This is platform independent or multiple platform supporter. Desktop is software, mobile is application and web is website.
+3. Native Cross Platform: Cross platform means a code that can execute on multiple platforms. It is platform independent. You will be using only one language for all the platforms i.e. Dart. Native place means birthplace. Native applications are those designed for a particular platform. For Android, we need Java or Kotlin. If I coded in the core languages of the platform, then the app is called native to that platform.
+4. Hybrid solution: one solution that have both native and web solutions. Web dev code is blended such that it can be used for apps also. One such code which works both for apps and webs. This is called hybrid or blend solution. For this we use web languages like html, CSS, JavaScript etc.
+Native Development: Android studio, XCode(iPhone)
+hybrid  : ionic, VSCode 
+cross platform: flutter, react native
+How is it better than its counterparts?
+Suppose you are having a raised button(button with shadow). If it was coded on other frameworks, for iOS, they call UI button component and for android they call widget. button. If coded in Flutter, to UI button component ya widget. will not be needed, flutter has own rendering engine, which controls everything. The UI is flutter ka custom implementation, so platform native component dependency reduces. This reduces complexities.
+Benefits of Flutter:
+1. Increase time-to-market speed: If you had to create desktop apps, website, apps android and iOS, then making individual item would take a lot of time. In case of Flutter, you just need to write code for one item and it would work for all, reducing time.
+2.Reduced code development time: time needed to write the code is less as only one code is used everywhere.
+3.The potential ability to go beyond the mobile: flutter is not only app dev, but also has desktop, web dev etc.
+4.Same UI and business logic in all platforms: All platforms have same UI design and logic.
+5.Custom animated UI of any complexity available: complex UI can also be made as flutter has own rendering engine.
+6.similar to native app performance: same performance if the app was made by the native language. No disadvantages.
+7.Own Rendering Engine: more UI options and less complexity and no lagging.
+8.Simple platform specific logic implementation: We will be using Dart which is a very simple language.

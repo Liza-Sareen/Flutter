@@ -1,0 +1,11 @@
+Flutter first app
+1. Can be created by command prompt
+2. Can be created by Android Studio's create new flutter project
+-Make a folder for all flutter projects
+-flutter prefers small letters at starting, we can edit later.
+-Uses different names for each app
+-name the flutter project or app corresponding to what that app will be doing.
+CMD: flutter create firstapp
+The main.dart file in lib has all the main code of the app.
+There will be a default interface provided by flutter as given by Django.
+

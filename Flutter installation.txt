@@ -1,0 +1,20 @@
+Flutter installation:
+1. Command: type 'Flutter' after copying the flutter bin path in Path variables
+Now after setting up Flutter sdk:
+2. Command: type 'Flutter Doctor'-->this command tells you if your flutter is installed properly. What things are in what stage.
+Android studio: android background coders
+VS Code: web background users
+! sign represents the missing things which are needed, x represents the unnecessary not found.
+-----Android Studio install with SDK---------------------------------------
+type 'download android studio and SDK tools'
+Android Studio is used for developing Android apps but now it has flutter support too.
+Same support is with VSCode.
+Android virtual device: simulator if you want to see your app and you don't have a phone.
+-when running commands in command line, we need to store bin path in environment variables.
+--------Making first flutter project----------
+make a new folder in documents called Flutter_projects
+cd documents--> cd Flutter_projects-->flutter create classico
+like in vscode , we install extensions, similarly install dart and flutter from plugins.
+settings->plugins.
+-------Setting up vscode----------------------
+extensions->install dart and flutter. Now open the classico project in vscode.
